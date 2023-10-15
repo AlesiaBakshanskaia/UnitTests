@@ -1,6 +1,31 @@
 package first.hw.Calculator;
 
+import java.util.Scanner;
+
 public class Calculator {
+    private static final Scanner scanner = new Scanner(System.in);
+    public static char getOperator() {
+        System.out.println("Enter operation: ");
+        char operation = scanner.next().charAt(0);
+        return operation;
+    }
+
+    public static int getOperand() {
+        System.out.println("Enter operand: ");
+        int operand;
+        if (scanner.hasNextInt()) {
+            operand = scanner.nextInt();
+        } else {
+            System.out.println("You have mistaken, try again");
+            if (scanner.hasNext()) {
+                scanner.next();
+                operand = getOperand();
+            } else {
+                throw new IllegalStateException("Input error");
+            }
+        }
+        return operand;
+    }
     public static int calculation(int firstOperand, int secondOperand, char operator) {
         int result;
 
@@ -38,6 +63,20 @@ public class Calculator {
             throw new IllegalArgumentException("Cannot calculate square root of a negative number");
         }
         return Math.sqrt(num);
+    }
+    public static int pow (int num, int power) {
+
+        if (num == 0) return 0;
+        if (power == 0) return 1;
+        if (power > 0) {
+            int result = 1;
+            for (int i = 1; i <= power; i++) {
+                result = result * num;
+
+            }
+            return result;
+        } else throw new RuntimeException("Отрицательная степень в разработке");
+
     }
 
     // Нужно написать в калькуляторе метод вычисления суммы покупки со скидкой и проверить его, используя AssertJ
