@@ -1,4 +1,7 @@
+package first.hw.Calculator;
+
 import first.hw.Calculator.Calculator;
+import first.hw.Calculator.Lenther;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
@@ -101,5 +104,17 @@ public class Calculator2Test {
                 .describedAs("Input error");
         System.setIn(inputStream);
         System.setOut(null);
+    }
+    @Test
+    void TestGetLengthCirc() {
+        assertThat(Calculator.getLengthCirc(10)).isEqualTo(62.83185307179586);
+    }
+    @Test
+    void testGetLength() {
+        Lenther lenther = new Lenther();
+
+        double result = lenther.getLenth(20);
+
+        assertThat(result).isEqualTo(62.83185307179586, offset(0.0001));
     }
 }

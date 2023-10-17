@@ -89,4 +89,7 @@ public class Calculator {
         } else throw new ArithmeticException("The discount is not correct");
         // Метод должен возвращать сумму покупки со скидкой
     }
+    public static double getLengthCirc(double radius) {
+        return 2 * Math.PI * radius;
+    }
 }
