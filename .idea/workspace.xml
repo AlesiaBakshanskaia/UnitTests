@@ -4,33 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd80cb3a-6401-4068-b4c6-792380146649" name="Changes" comment="HW3">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Mockito.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fourth/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fourth/card/CreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fourth/card/PaymentForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fourth/database/DataProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fourth/database/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fourth/hotel/BookingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fourth/hotel/HotelService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fourth/hw/book/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fourth/hw/book/BookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fourth/hw/book/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fourth/hw/book/InMemoryBookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fourth/message/MessageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fourth/message/NotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fourth/weather/WeatherReporter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fourth/weather/WeatherService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/fourth/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/fourth/card/PaymentFormTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/fourth/database/DataProcessorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/fourth/hotel/BookingServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/fourth/hw/book/BookServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/fourth/hw/book/BookTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/fourth/hw/book/InMemoryBookRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/fourth/message/NotificationServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/fourth/weather/WeatherReporterTest.java" afterDir="false" />
+    <list default="true" id="fd80cb3a-6401-4068-b4c6-792380146649" name="Changes" comment="HW4">
+      <change afterPath="$PROJECT_DIR$/src/main/java/five/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/five/hw/hw5.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/five/number/MaxNumberModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/five/number/RandomNumberModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/five/order/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/five/order/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/five/user/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/five/user/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/five/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/five/SeleniumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +51,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Владислав/IdeaProjects/UnitTests/src/test&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Владислав/IdeaProjects/UnitTests/src/main/java&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -77,8 +63,8 @@
       <recent name="first.hw.Calculator" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Владислав\IdeaProjects\UnitTests\src\test" />
       <recent name="C:\Users\Владислав\IdeaProjects\UnitTests\src\main\java" />
+      <recent name="C:\Users\Владислав\IdeaProjects\UnitTests\src\test" />
       <recent name="C:\Users\Владислав\IdeaProjects\UnitTests\src\test\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -93,84 +79,90 @@
       <recent name="second.hw" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.book in UnitTests">
-    <configuration name="BookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SeleniumTest.seleniumTest2">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="five.Main" />
       <module name="UnitTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fourth.hw.book.*" />
+          <option name="PATTERN" value="five.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="fourth.hw.book" />
-      <option name="MAIN_CLASS_NAME" value="fourth.hw.book.BookTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="five.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="five" />
+      <option name="MAIN_CLASS_NAME" value="five.SeleniumTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookTest.checkGetId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SeleniumTest.autorizationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fourth.hw.book.*" />
+          <option name="PATTERN" value="five.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="fourth.hw.book" />
-      <option name="MAIN_CLASS_NAME" value="fourth.hw.book.BookTest" />
-      <option name="METHOD_NAME" value="checkGetId" />
+      <option name="PACKAGE_NAME" value="five" />
+      <option name="MAIN_CLASS_NAME" value="five.SeleniumTest" />
+      <option name="METHOD_NAME" value="autorizationTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InMemoryBookRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SeleniumTest.seleniumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fourth.hw.book.*" />
+          <option name="PATTERN" value="five.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="fourth.hw.book" />
-      <option name="MAIN_CLASS_NAME" value="fourth.hw.book.InMemoryBookRepositoryTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InMemoryBookRepositoryTest.checkInMemoryBookRepositoryFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UnitTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fourth.hw.book.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="fourth.hw.book" />
-      <option name="MAIN_CLASS_NAME" value="fourth.hw.book.InMemoryBookRepositoryTest" />
-      <option name="METHOD_NAME" value="checkInMemoryBookRepositoryFindAll" />
+      <option name="PACKAGE_NAME" value="five" />
+      <option name="MAIN_CLASS_NAME" value="five.SeleniumTest" />
+      <option name="METHOD_NAME" value="seleniumTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="book in UnitTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SeleniumTest.seleniumTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTests" />
-      <option name="TEST_OBJECT" value="directory" />
-      <dir value="$PROJECT_DIR$/src/test/fourth/hw/book" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="five.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="five" />
+      <option name="MAIN_CLASS_NAME" value="five.SeleniumTest" />
+      <option name="METHOD_NAME" value="seleniumTest2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.book in UnitTests" />
-        <item itemvalue="JUnit.InMemoryBookRepositoryTest" />
-        <item itemvalue="JUnit.InMemoryBookRepositoryTest.checkInMemoryBookRepositoryFindAll" />
-        <item itemvalue="JUnit.BookTest" />
-        <item itemvalue="JUnit.BookTest.checkGetId" />
+        <item itemvalue="JUnit.SeleniumTest.seleniumTest2" />
+        <item itemvalue="JUnit.SeleniumTest" />
+        <item itemvalue="JUnit.SeleniumTest.autorizationTest" />
+        <item itemvalue="JUnit.SeleniumTest.seleniumTest" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -204,14 +196,22 @@
       <option name="project" value="LOCAL" />
       <updated>1697573924865</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="HW4">
+      <created>1697922921475</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697922921475</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HW1" />
     <MESSAGE value="HW2" />
     <MESSAGE value="HW3" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW3" />
+    <MESSAGE value="HW4" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW4" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
@@ -225,6 +225,9 @@
     <SUITE FILE_PATH="coverage/UnitTests$third_hw_in_UnitTests.ic" NAME="third.hw in UnitTests Coverage Results" MODIFIED="1697571729348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>third.hw.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/UnitTests$InMemoryBookRepositoryTest.ic" NAME="InMemoryBookRepositoryTest Coverage Results" MODIFIED="1697922736789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>fourth.hw.book.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/UnitTests$Calculator2Test_testGetLength.ic" NAME="Calculator2Test.testGetLength Coverage Results" MODIFIED="1697484724239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/UnitTests$hw_in_UnitTests.ic" NAME="hw in UnitTests Coverage Results" MODIFIED="1697566022550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/UnitTests$UserTest.ic" NAME="UserTest Coverage Results" MODIFIED="1697571610238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -237,6 +240,6 @@
       <FILTER>third.hw.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/UnitTests$Calculator2Test_TestGetLengthCirc.ic" NAME="Calculator2Test.TestGetLengthCirc Coverage Results" MODIFIED="1697478713048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/UnitTests$book_in_UnitTests.ic" NAME="book in UnitTests Coverage Results" MODIFIED="1697921712475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/UnitTests$book_in_UnitTests.ic" NAME="book in UnitTests Coverage Results" MODIFIED="1697922757803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
