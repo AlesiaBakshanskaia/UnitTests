@@ -1,16 +1,19 @@
 package sixth;
+
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.extension.ExtensionContext;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.ArgumentsSource;
 import org.junit.jupiter.params.provider.*;
+
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import java.util.List;
 import java.util.stream.Stream;
 
 import static org.assertj.core.api.Assertions.assertThat;
+
 public class TestListComparationByAverage {
     static ListComparison listComparison;
 
@@ -21,7 +24,7 @@ public class TestListComparationByAverage {
 
     @ParameterizedTest
     @ArgumentsSource(AverageArgumentsProvider.class)
-    public void testAverageValue(List<Integer> list, double result) {
+    public void TestGetAverageOfList(List<Integer> list, double result) {
         AverageOfList averageOfList = new AverageOfList();
         double average = averageOfList.getAverageOfList(list);
 
@@ -33,6 +36,7 @@ public class TestListComparationByAverage {
         public Stream<? extends Arguments> provideArguments(ExtensionContext extensionContext) {
             return Stream.of(
                     Arguments.of(List.of(10, 20, 30), 20),
+                    Arguments.of(List.of(-10, -20, -30), -20),
                     Arguments.of(List.of(2, 3), 2.5),
                     Arguments.of(List.of(), 0),
                     Arguments.of(List.of(-10, -20, 30), 0)
@@ -53,6 +57,7 @@ public class TestListComparationByAverage {
 
         System.setOut(null);
     }
+
     @ParameterizedTest
     @ArgumentsSource(CompareArgumentsProvider.class)
     public void testAverageList2Bigger(List<Integer> list1, List<Integer> list2) {
@@ -72,7 +77,7 @@ public class TestListComparationByAverage {
             return Stream.of(
                     Arguments.of(List.of(10, 20, 31), List.of(10, 20, 30)),
                     Arguments.of(List.of(2, 3), List.of()),
-                    Arguments.of(List.of(-2, -2 ), List.of(-2, -3))
+                    Arguments.of(List.of(-2, -2), List.of(-2, -3))
             );
         }
     }
@@ -89,12 +94,13 @@ public class TestListComparationByAverage {
 
         System.setOut(null);
     }
+
     static Stream<Arguments> provideParameters() {
         return Stream.of(
                 Arguments.of(List.of(10, 20, 31), List.of(10, 20, 31)),
                 Arguments.of(List.of(10, 21, 30), List.of(10, 20, 31)),
                 Arguments.of(List.of(), List.of()),
-                Arguments.of(List.of(-2, -2 ), List.of(-2, -2))
+                Arguments.of(List.of(-2, -2), List.of(-2, -2))
         );
     }
 
