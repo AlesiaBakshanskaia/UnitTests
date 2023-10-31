@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd80cb3a-6401-4068-b4c6-792380146649" name="Changes" comment="HW4">
-      <change afterPath="$PROJECT_DIR$/src/main/java/five/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/five/hw/hw5.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/five/number/MaxNumberModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/five/number/RandomNumberModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/five/order/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/five/order/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/five/user/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/five/user/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/five/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/five/SeleniumTest.java" afterDir="false" />
+    <list default="true" id="fd80cb3a-6401-4068-b4c6-792380146649" name="Changes" comment="HW5">
+      <change afterPath="$PROJECT_DIR$/src/main/java/sixth/AverageOfList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sixth/ListComparison.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/sixth/TestListComparationByAverage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,78 +71,81 @@
       <recent name="second.hw" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SeleniumTest.seleniumTest2">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="five.Main" />
+  <component name="RunManager" selected="JUnit.TestListComparationByAverage">
+    <configuration name="TestListComparationByAverage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="five.*" />
+          <option name="PATTERN" value="sixth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SeleniumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UnitTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="five.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="five" />
-      <option name="MAIN_CLASS_NAME" value="five.SeleniumTest" />
+      <option name="PACKAGE_NAME" value="sixth" />
+      <option name="MAIN_CLASS_NAME" value="sixth.TestListComparationByAverage" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumTest.autorizationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestListComparationByAverage.testAverageList1BiggerAverageList2 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="five.*" />
+          <option name="PATTERN" value="sixth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="five" />
-      <option name="MAIN_CLASS_NAME" value="five.SeleniumTest" />
-      <option name="METHOD_NAME" value="autorizationTest" />
+      <option name="PACKAGE_NAME" value="sixth" />
+      <option name="MAIN_CLASS_NAME" value="sixth.TestListComparationByAverage" />
+      <option name="METHOD_NAME" value="testAverageList1BiggerAverageList2(java.util.List,java.util.List)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumTest.seleniumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestListComparationByAverage.testAverageValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="five.*" />
+          <option name="PATTERN" value="sixth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="five" />
-      <option name="MAIN_CLASS_NAME" value="five.SeleniumTest" />
-      <option name="METHOD_NAME" value="seleniumTest" />
+      <option name="PACKAGE_NAME" value="sixth" />
+      <option name="MAIN_CLASS_NAME" value="sixth.TestListComparationByAverage" />
+      <option name="METHOD_NAME" value="testAverageValue(java.util.List,double)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumTest.seleniumTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestListComparationByAverage.testCompareAverageList2Bigger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="five.*" />
+          <option name="PATTERN" value="sixth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="five" />
-      <option name="MAIN_CLASS_NAME" value="five.SeleniumTest" />
-      <option name="METHOD_NAME" value="seleniumTest2" />
+      <option name="PACKAGE_NAME" value="sixth" />
+      <option name="MAIN_CLASS_NAME" value="sixth.TestListComparationByAverage" />
+      <option name="METHOD_NAME" value="testCompareAverageList2Bigger(java.util.List,java.util.List)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestListComparationByAverage.testEqualAverageLists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sixth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sixth" />
+      <option name="MAIN_CLASS_NAME" value="sixth.TestListComparationByAverage" />
+      <option name="METHOD_NAME" value="testEqualAverageLists(java.util.List,java.util.List)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -158,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SeleniumTest.seleniumTest2" />
-        <item itemvalue="JUnit.SeleniumTest" />
-        <item itemvalue="JUnit.SeleniumTest.autorizationTest" />
-        <item itemvalue="JUnit.SeleniumTest.seleniumTest" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TestListComparationByAverage" />
+        <item itemvalue="JUnit.TestListComparationByAverage.testEqualAverageLists" />
+        <item itemvalue="JUnit.TestListComparationByAverage.testAverageValue" />
+        <item itemvalue="JUnit.TestListComparationByAverage.testCompareAverageList2Bigger" />
+        <item itemvalue="JUnit.TestListComparationByAverage.testAverageList1BiggerAverageList2 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697922921475</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="HW5">
+      <created>1698269971156</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698269971156</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -211,25 +213,18 @@
     <MESSAGE value="HW2" />
     <MESSAGE value="HW3" />
     <MESSAGE value="HW4" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW4" />
+    <MESSAGE value="HW5" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW5" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/UnitTests$third_in_UnitTests.ic" NAME="third in UnitTests Coverage Results" MODIFIED="1697573788521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/UnitTests$testParityCheck.ic" NAME="testParityCheck Coverage Results" MODIFIED="1697564791320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>third.hw.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/UnitTests$third_hw_in_UnitTests.ic" NAME="third.hw in UnitTests Coverage Results" MODIFIED="1697571729348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>third.hw.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/UnitTests$InMemoryBookRepositoryTest.ic" NAME="InMemoryBookRepositoryTest Coverage Results" MODIFIED="1697922736789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>fourth.hw.book.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/UnitTests$Calculator2Test_testGetLength.ic" NAME="Calculator2Test.testGetLength Coverage Results" MODIFIED="1697484724239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/UnitTests$hw_in_UnitTests.ic" NAME="hw in UnitTests Coverage Results" MODIFIED="1697566022550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/UnitTests$UserTest.ic" NAME="UserTest Coverage Results" MODIFIED="1697571610238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>third.tdd.*</FILTER>
     </SUITE>
@@ -240,6 +235,20 @@
       <FILTER>third.hw.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/UnitTests$Calculator2Test_TestGetLengthCirc.ic" NAME="Calculator2Test.TestGetLengthCirc Coverage Results" MODIFIED="1697478713048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/UnitTests$SomeServiceTest.ic" NAME="SomeServiceTest Coverage Results" MODIFIED="1698691266743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>third.coverage.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/UnitTests$book_in_UnitTests.ic" NAME="book in UnitTests Coverage Results" MODIFIED="1697922757803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/UnitTests$third_in_UnitTests.ic" NAME="third in UnitTests Coverage Results" MODIFIED="1697573788521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/UnitTests$testParityCheck.ic" NAME="testParityCheck Coverage Results" MODIFIED="1697564791320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>third.hw.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/UnitTests$third_hw_in_UnitTests.ic" NAME="third.hw in UnitTests Coverage Results" MODIFIED="1697571729348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>third.hw.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/UnitTests$hw_in_UnitTests.ic" NAME="hw in UnitTests Coverage Results" MODIFIED="1697566022550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/UnitTests$TestListComparationByAverage.ic" NAME="TestListComparationByAverage Coverage Results" MODIFIED="1698773226860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>sixth.*</FILTER>
+    </SUITE>
   </component>
 </project>
